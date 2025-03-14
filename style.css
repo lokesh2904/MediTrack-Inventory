@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+    background: white;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.list-group-item:hover {
+    background: #e3f2fd;
+}
+
+.btn-sm {
+    font-size: 14px;
+    margin-left: 5px;
+}
